@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css link -->
+    <link rel="stylesheet" href="./assets/styles/ads.css" />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/c5912520a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- link swiper js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+     <!-- aos link -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Ads | classyads</title>
+  </head>
+  <body>
+
+    <div class="layer">
+      <div class = "mobile-nav">
+        <div class="close-icon">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <ul class = "responsive-ul">
+          <li><a id = "home" href="./index.html">Home</a></li>
+          <li><a id = "ads" href="./ads.html">Ads</a></li>
+          <li id="d-down">
+            <a href="./about.html"
+              >About <span><i class="fa-solid fa-angle-down"></i></span
+            ></a>
+            <div class="dropdown-menu">
+              <ul class="dropdown">
+                <li><a href="#">The Company</a></li>
+                <li><a href="#">The Leadership</a></li>
+                <li><a href="#">Philosophy</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- header starts -->
+    <header>
+      <nav>
+        <h1 data-aos="fade-up"><a href="./index.html">CLASSY<span>ADS</span></a></h1>
+        <div data-aos="fade-up" class="header-right">
+          <div class="burger-menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <ul class="desktop-ul">
+            <li><a id="home" href="./index.html">Home</a></li>
+            <li><a id="ads" href="./ads.html">Ads</a></li>
+            <li id="d-down">
+              <a id="about" href="./about.html"
+                >About <span><i class="fa-solid fa-angle-down"></i></span
+              ></a>
+              <div class="dropdown-menu">
+                <ul class="dropdown">
+                  <li><a href="#">The Company</a></li>
+                  <li><a href="#">The Leadership</a></li>
+                  <li><a href="#">Philosophy</a></li>
+                  <li><a href="#">Careers</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="log-register">
+            <a id="log-in" href="">Log In</a>
+            <a href="">Register</a>
+          </div>
+          <button>+ Post An Ad</button>
+        </div>
+      </nav>
+      <div class="header-content">
+        <div class="header-heading">
+          <h1>Ads Listings</h1>
+          <h3>Choose product you want</h3>
+        </div>
+      </div>
+    </header>
+    <!-- header ends -->
+
+    <!-- first section starts -->
+    <section class="catalog-search">
+      <div class="search-left">
+        <div class="catalog-cards">
+          <div class="catalog-card">
+            <img
+              src="./assets/imgs/ximg_2.jpg.pagespeed.ic.5-pth7OZ43.webp"
+              alt="house"
+            />
+            <div class="catalog-card-desc">
+              <div class="desc-top">
+                <span id="category">Real Estate</span>
+                <span id="favorite"><i class="fa-solid fa-heart"></i></span>
+              </div>
+              <div class="desc-middle">
+                <h3>House With Swimming Pool</h3>
+                <p>Don St, Brooklyn, New York</p>
+              </div>
+              <div class="desc-bottom">
+                <div id = "rates" class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span>(3 Reviews)</span>
+              </div>
+            </div>
+          </div>
+          <div class="catalog-card">
+            <img
+              src="./assets/imgs/ximg_3.jpg.pagespeed.ic.K1pnvimfmk.webp"
+              alt="house"
+            />
+            <div class="catalog-card-desc">
+              <div class="desc-top">
+                <span id="category">Furniture</span>
+                <span id="favorite"><i class="fa-solid fa-heart"></i></span>
+              </div>
+              <div class="desc-middle">
+                <h3>Wooden Chair & Table</h3>
+                <p>Don St, Brooklyn, New York</p>
+              </div>
+              <div class="desc-bottom">
+                <div id = "rates" class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span>(3 Reviews)</span>
+              </div>
+            </div>
+          </div>
+          <div class="catalog-card">
+            <img
+              src="./assets/imgs/ximg_4.jpg.pagespeed.ic.BUEZMeneMq.webp"
+              alt="phone"
+            />
+            <div class="catalog-card-desc">
+              <div class="desc-top">
+                <span id="category">Electronics</span>
+                <span id="favorite"><i class="fa-solid fa-heart"></i></span>
+              </div>
+              <div class="desc-middle">
+                <h3>IPhone X gray</h3>
+                <p>Don St, Brooklyn, New York</p>
+              </div>
+              <div class="desc-bottom">
+                <div id = "rates" class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span>(3 Reviews)</span>
+              </div>
+            </div>
+          </div>
+          <div class="catalog-card">
+            <img
+              src="./assets/imgs/ximg_1.jpg.pagespeed.ic.j82vqtzLSp.webp"
+              alt="house"
+            />
+            <div class="catalog-card-desc">
+              <div class="desc-top">
+                <span id="category">Car & Vehicles</span>
+                <div id="favorite"><i class="fa-solid fa-heart"></i></div>
+              </div>
+              <div class="desc-middle">
+                <h3>Red Luxury Car</h3>
+                <p>Don St, Brooklyn, New York</p>
+              </div>
+              <div class="desc-bottom">
+                <div id = "rates" class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span>(3 Reviews)</span>
+              </div>
+            </div>
+          </div>
+          <div class="catalog-card">
+            <img
+              src="./assets/imgs/ximg_3.jpg.pagespeed.ic.K1pnvimfmk.webp"
+              alt="house"
+            />
+            <div class="catalog-card-desc">
+              <div class="desc-top">
+                <span id="category">Furniture</span>
+                <span id="favorite"><i class="fa-solid fa-heart"></i></span>
+              </div>
+              <div class="desc-middle">
+                <h3>Wooden Chair & Table</h3>
+                <p>Don St, Brooklyn, New York</p>
+              </div>
+              <div class="desc-bottom">
+                <div id = "rates" class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span>(3 Reviews)</span>
+              </div>
+            </div>
+          </div>
+          <div class="catalog-card">
+            <img
+              src="./assets/imgs/ximg_4.jpg.pagespeed.ic.BUEZMeneMq.webp"
+              alt="phone"
+            />
+            <div class="catalog-card-desc">
+              <div class="desc-top">
+                <span id="category">Electronics</span>
+                <span id="favorite"><i class="fa-solid fa-heart"></i></span>
+              </div>
+              <div class="desc-middle">
+                <h3>IPhone X gray</h3>
+                <p>Don St, Brooklyn, New York</p>
+              </div>
+              <div class="desc-bottom">
+                <div id = "rates" class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span>(3 Reviews)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page-selector">
+          <span id="first-page">1</span>
+          <span>2</span>
+          <span>3</span>...<span>10</span>
+        </div>
+      </div>
+      <div class="search-right">
+        <h3>Filters</h3>
+        <div class="search-inputs">
+          <input id = "search" type="text" placeholder="What are you looking for?"/>
+          <select name="selector" id="search-select">
+            <option id = "option-select" value="all-categories">All Categories</option>
+            <option id = "option-select" value="real-estate">Real Estate</option>
+            <option id = "option-select" value="books-magazines">Books & Magazines</option>
+            <option id = "option-select" value="furniture">Furniture</option>
+            <option id = "option-select" value="electronics">Electronics</option>
+            <option id = "option-select" value="cars-vehicles">Cars & Vehicles</option>
+            <option id = "option-select" value="others">Others</option>
+          </select>
+          <input id = "location" type="text" placeholder="Location"/>
+        </div>
+        <div class="scroll-radius">
+          <h4>Radius around selected destination</h4>
+          <div class="range-price">
+            <form class="range">
+                <div class="form-group range__slider">
+                    <input type="range" step="1">
+                </div><!--/form-group-->
+                <div class="form-group range__value">
+                    <span id="range"></span>
+                </div><!--/form-group-->
+            </form>
+    </div>
+          </div>
+          <div class="more-filters">
+            <h4>Category '<span id = "category-span">All Categories</span>' is selected</h4>
+            <p>More filters</p>
+            <ul id = real-estate-ul>
+              <li><input type="checkbox"><span>Residental</span></li>
+              <li><input type="checkbox"><span>Commercial</span></li>
+              <li><input type="checkbox"><span>Industrial</span></li>
+              <li><input type="checkbox"><span>Land</span></li> 
+            </ul>
+            <ul id = books-magazines-ul>
+              <li><input type="checkbox"><span>Books</span></li>
+              <li><input type="checkbox"><span>Magazines</span></li>
+              <li><input type="checkbox"><span>Comics</span></li>
+              <li><input type="checkbox"><span>Journals</span></li> 
+            </ul>
+            <ul id = furniture-ul>
+              <li><input type="checkbox"><span>Kitchen Furniture</span></li>
+              <li><input type="checkbox"><span>Sofas</span></li>
+              <li><input type="checkbox"><span>Tables</span></li>
+              <li><input type="checkbox"><span>Chairs</span></li> 
+            </ul>
+            <ul id = electronics-ul>
+              <li><input type="checkbox"><span>Phones</span></li>
+              <li><input type="checkbox"><span>Computers</span></li>
+              <li><input type="checkbox"><span>Headphones</span></li>
+              <li><input type="checkbox"><span>Tablets</span></li> 
+            </ul>
+            <ul id = cars-vehicles-ul>
+              <li><input type="checkbox"><span>Sedan</span></li>
+              <li><input type="checkbox"><span>SUV</span></li>
+              <li><input type="checkbox"><span>Truck</span></li>
+              <li><input type="checkbox"><span>Sport Car</span></li> 
+            </ul>
+            <ul id = others-ul>
+              <li><input type="checkbox"><span>Pets</span></li>
+              <li><input type="checkbox"><span>Work</span></li>
+              <li><input type="checkbox"><span>Tools</span></li>
+              <li><input type="checkbox"><span>Services</span></li> 
+            </ul>
+          </div> 
+          <div class="more-info">
+            <h4>More Info</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptatem placeat facilis, reprehenderit eius officiis.</p>
+          </div>
+        </div>
+        
+    </section>
+    <!-- first section ends -->
+
+    <!-- second section starts -->
+    <section class="trending-products">
+      <h2>Trending Today</h2>
+      <div class="heading-border"></div>
+      <div class="catalog-cards">
+        <div class="catalog-card">
+          <img
+            src="./assets/imgs/ximg_2.jpg.pagespeed.ic.5-pth7OZ43.webp"
+            alt="house"
+          />
+          <div class="catalog-card-desc">
+            <div class="desc-top">
+              <span id="category">Real Estate</span>
+              <span id="favorite"><i class="fa-solid fa-heart"></i></span>
+            </div>
+            <div class="desc-middle">
+              <h3>House With Swimming Pool</h3>
+              <p>Don St, Brooklyn, New York</p>
+            </div>
+            <div class="desc-bottom">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span>(3 Reviews)</span>
+            </div>
+          </div>
+        </div>
+        <div class="catalog-card">
+          <img
+            src="./assets/imgs/ximg_3.jpg.pagespeed.ic.K1pnvimfmk.webp"
+            alt="house"
+          />
+          <div class="catalog-card-desc">
+            <div class="desc-top">
+              <span id="category">Furniture</span>
+              <span id="favorite"><i class="fa-solid fa-heart"></i></span>
+            </div>
+            <div class="desc-middle">
+              <h3>Wooden Chair & Table</h3>
+              <p>Don St, Brooklyn, New York</p>
+            </div>
+            <div class="desc-bottom">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span>(3 Reviews)</span>
+            </div>
+          </div>
+        </div>
+        <div class="catalog-card">
+          <img
+            src="./assets/imgs/ximg_4.jpg.pagespeed.ic.BUEZMeneMq.webp"
+            alt="phone"
+          />
+          <div class="catalog-card-desc">
+            <div class="desc-top">
+              <span id="category">Electronics</span>
+              <span id="favorite"><i class="fa-solid fa-heart"></i></span>
+            </div>
+            <div class="desc-middle">
+              <h3>IPhone X gray</h3>
+              <p>Don St, Brooklyn, New York</p>
+            </div>
+            <div class="desc-bottom">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span>(3 Reviews)</span>
+            </div>
+          </div>
+        </div>
+        <div class="catalog-card">
+          <img
+            src="./assets/imgs/ximg_1.jpg.pagespeed.ic.j82vqtzLSp.webp"
+            alt="house"
+          />
+          <div class="catalog-card-desc">
+            <div class="desc-top">
+              <span id="category">Car & Vehicles</span>
+              <div id="favorite"><i class="fa-solid fa-heart"></i></div>
+            </div>
+            <div class="desc-middle">
+              <h3>Red Luxury Car</h3>
+              <p>Don St, Brooklyn, New York</p>
+            </div>
+            <div class="desc-bottom">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span>(3 Reviews)</span>
+            </div>
+          </div>
+        </div>
+        <div class="catalog-card">
+          <img
+            src="./assets/imgs/ximg_3.jpg.pagespeed.ic.K1pnvimfmk.webp"
+            alt="house"
+          />
+          <div class="catalog-card-desc">
+            <div class="desc-top">
+              <span id="category">Furniture</span>
+              <span id="favorite"><i class="fa-solid fa-heart"></i></span>
+            </div>
+            <div class="desc-middle">
+              <h3>Wooden Chair & Table</h3>
+              <p>Don St, Brooklyn, New York</p>
+            </div>
+            <div class="desc-bottom">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span>(3 Reviews)</span>
+            </div>
+          </div>
+        </div>
+        <div class="catalog-card">
+          <img
+            src="./assets/imgs/ximg_4.jpg.pagespeed.ic.BUEZMeneMq.webp"
+            alt="phone"
+          />
+          <div class="catalog-card-desc">
+            <div class="desc-top">
+              <span id="category">Electronics</span>
+              <span id="favorite"><i class="fa-solid fa-heart"></i></span>
+            </div>
+            <div class="desc-middle">
+              <h3>IPhone X gray</h3>
+              <p>Don St, Brooklyn, New York</p>
+            </div>
+            <div class="desc-bottom">
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span>(3 Reviews)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- second section ends -->
+
+    <!-- third section starts -->
+    <section class="testimonials">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div id="author-1" class="author-photo"></div>
+            <span>John Smith</span>
+            <p>
+              “Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae
+              explicabo animi minima fuga beatae illum eligendi incidunt
+              consequatur. Amet dolores excepturi earum unde iusto.”
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <div id="author-2" class="author-photo"></div>
+            <span>John Smith</span>
+            <p>
+              “Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae
+              explicabo animi minima fuga beatae illum eligendi incidunt
+              consequatur. Amet dolores excepturi earum unde iusto.”
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <div id="author-3" class="author-photo"></div>
+            <span>John Smith</span>
+            <p>
+              “Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae
+              explicabo animi minima fuga beatae illum eligendi incidunt
+              consequatur. Amet dolores excepturi earum unde iusto.”
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <div id="author-4" class="author-photo"></div>
+            <span>John Smith</span>
+            <p>
+              “Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae
+              explicabo animi minima fuga beatae illum eligendi incidunt
+              consequatur. Amet dolores excepturi earum unde iusto.”
+            </p>
+          </div>
+        </div>
+        <div class="swiper-button-next swiper-control"></div>
+        <div class="swiper-button-prev swiper-control"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- third section ends -->
+
+    <!-- forth section starts -->
+    <section class="newsletter">
+      <div class="newsletter-left">
+        <h2>Newsletter</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="newsletter-right">
+        <input type="text" placeholder="Email" />
+        <button>Submit</button>
+      </div>
+    </section>
+    <!-- forth section ends -->
+
+    <!-- footer starts -->
+    <footer>
+      <div class="footer-about">
+        <h3>About</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+          rerum unde possimus molestias dolorem fuga, illo quis fugiat!
+        </p>
+      </div>
+      <div class="footer-nav">
+        <h3>Navigations</h3>
+        <ul>
+          <li>About Us</li>
+          <li>Service</li>
+          <li>Testimonials</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="footer-socials">
+        <h3>Follow Us</h3>
+        <ul>
+          <li><i class="fa-brands fa-facebook-f"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-linkedin-in"></i></li>
+        </ul>
+      </div>
+      <div class="footer-search">
+        <input type="text" placeholder="Search Products..." />
+        <button>Search</button>
+      </div>
+    </footer>
+    <!-- footer ends -->
+
+
+
+    <!-- aos script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/js/ads.js"></script>
+  </body>
+</html>
